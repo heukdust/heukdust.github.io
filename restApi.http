@@ -1,0 +1,15 @@
+GET https://example.com/mabinogi/v1/auction/list?item_name=Mana%20Potion&item_count=5&auction_price_per_unit=500
+Content-Type: application/json
+Authorization: Bearer YOUR_ACCESS_TOKEN
+
+
+
+POST https://example.com/mabinogi/v1/auction/list
+Content-Type: application/json
+Authorization: Bearer YOUR_ACCESS_TOKEN
+
+{
+  "item_name": "폴록스",
+  "item_count": 5,
+  "auction_price_per_unit": 500
+}

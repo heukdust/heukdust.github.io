@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>쑥먹은범 프로필</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(circle at 20% 20%, #333 0%, #1e1e1e 100%);
+      color: #e3e3e3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      background: linear-gradient(to right, #2e2f30 0%, #51544d 100%);
+      background-image: 
+        linear-gradient(to right, #2e2f30 0%, #51544d 100%),
+        url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnPjxmaWx0ZXIgaWQ9J25vaXNlJz48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9JzAuNScgbnVtT2N0YXZlcz0nMycvPjwvZmlsdGVyPjxcmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWx0ZXI9InVybCgjbm9pc2UpIiBvcGFjaXR5PSIwLjAyIi8+PC9zdmc+'),
+        linear-gradient(to right, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+      background-blend-mode: overlay, overlay;
+      background-size: cover, cover, 1px 100%;
+      border-radius: 24px;
+      overflow: hidden;
+      width: 900px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+    .profile {
+      padding: 30px;
+      width: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .profile img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin-bottom: 20px;
+    }
+
+    .profile h2 {
+      margin: 10px 0;
+      font-size: 24px;
+      color: #ffffff;
+    }
+
+    .profile p {
+      font-size: 14px;
+      color: #bcbcbc;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .profile a {
+      color: #a4c8e1;
+      text-decoration: underline;
+    }
+
+    .icons {
+      display: flex;
+      gap: 16px;
+      margin-top: auto;
+    }
+
+    .icons i {
+      font-size: 20px;
+      color: #e3e3e3;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.06);
+      transition: background-color 0.3s;
+    }
+
+    .icons i:hover {
+      background-color: rgba(255, 255, 255, 0.12);
+    }
+
+    .content {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h3 {
+      margin-bottom: 10px;
+      font-size: 22px;
+      color: #f0f0f0;
+    }
+
+    .section p {
+      color: #c5c5c5;
+      font-size: 15px;
+    }
+
+    .section a {
+      color: #a4c8e1;
+    }
+
+    .social-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .social-buttons button {
+      background-color: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      padding: 8px 18px;
+      color: #dcdcdc;
+      font-size: 13px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .social-buttons button:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="profile.png" alt="프로필 이미지">
+      <h2>쑥먹은범</h2>
+      <p>
+        Ultricies suscipit orci curabitur aliquet interdum sed egestas urna orci quisque non ante eu porta
+        <a href="#">nulla donec</a>. Venenatis faucibus nisl quis morbi nibh elit erat gravida
+        <a href="#">aliquam odio viverra</a>.
+      </p>
+      <div class="icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fas fa-play-circle"></i>
+        <i class="fas fa-envelope"></i>
+      </div>
+    </div>
+    <div class="content">
+      <div class="section">
+        <h3>Etiam vis est tristique</h3>
+        <p>Morbi eleifend vis ullamcorper venenatis elementum pellentesque <a href="#">consequat</a> <u>sem</u> vel congue tempor. Augue etiam congue.</p>
+      </div>
+      <div class="section">
+        <h3>Massa tempus urna</h3>
+        <p>Mauris etiam eu cras aenean curabitur integer pharetra imperdiet lacus. Quis id eget purus magnis pharetra.</p>
+        <div class="social-buttons">
+          <button><i class="fab fa-linkedin"></i> LinkedIn</button>
+          <button><i class="fab fa-snapchat"></i> Snapchat</button>
+          <button><i class="fab fa-youtube"></i> YouTube</button>
+          <button><i class="fab fa-instagram"></i> Instagram</button>
+          <button><i class="fab fa-x-twitter"></i> X</button>
+          <button><i class="fab fa-discord"></i> Discord</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

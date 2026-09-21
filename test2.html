@@ -1,0 +1,35 @@
+// 일반 지팡이 카드 CSS 폰트 색상 (파란색)
+            let 운명_지팡이_카드_경매장_폰트 = parseGold(document.getElementById("최저가-운명의 지팡이 카드").innerHTML);
+            let 운명_지팡이_카드_경매장구매_폰트 = parseGold(document.getElementById("최저가-운명의 지팡이 카드-경매장구매").innerHTML);
+            let 운명_지팡이_카드_조각부터_폰트 = parseGold(document.getElementById("최저가-운명의 지팡이 카드-자체수급-조각부터").innerHTML);
+            let 운명_지팡이_카드_결정부터_폰트 = parseGold(document.getElementById("최저가-운명의 지팡이 카드-자체수급-결정부터").innerHTML);
+
+            if(운명_지팡이_카드_경매장_폰트 > 운명_지팡이_카드_경매장구매_폰트){
+                let 운명_지팡이_카드_경매장구매_폰트Div = document.getElementById("최저가-운명의 지팡이 카드-경매장구매")
+                운명_지팡이_카드_경매장구매_폰트Div.style.color = "cornflowerblue";
+
+            }
+            if(운명_지팡이_카드_경매장_폰트 > 운명_지팡이_카드_조각부터_폰트){
+                let 운명_지팡이_카드_경매장구매_폰트Div = document.getElementById("최저가-운명의 지팡이 카드-자체수급-조각부터")
+                운명_지팡이_카드_경매장구매_폰트Div.style.color = "cornflowerblue";
+            }
+            if(운명_지팡이_카드_경매장_폰트 > 운명_지팡이_카드_결정부터_폰트){
+                let 운명_지팡이_카드_경매장구매_폰트Div = document.getElementById("최저가-운명의 지팡이 카드-자체수급-결정부터")
+                운명_지팡이_카드_경매장구매_폰트Div.style.color = "cornflowerblue";
+            }
+
+
+            // 운명 지팡이 카드 CSS 폰트 색상 (빨간색)
+            if(운명_지팡이_카드_경매장_폰트 < 운명_지팡이_카드_경매장구매_폰트){
+                let 운명_지팡이_카드_경매장구매_폰트Div = document.getElementById("최저가-운명의 지팡이 카드-경매장구매")
+                운명_지팡이_카드_경매장구매_폰트Div.style.color = "indianred";
+
+            }
+            if(운명_지팡이_카드_경매장_폰트 < 운명_지팡이_카드_조각부터_폰트){
+                let 운명_지팡이_카드_경매장구매_폰트Div = document.getElementById("최저가-운명의 지팡이 카드-자체수급-조각부터")
+                운명_지팡이_카드_경매장구매_폰트Div.style.color = "indianred";
+            }
+            if(운명_지팡이_카드_경매장_폰트 < 운명_지팡이_카드_결정부터_폰트){
+                let 운명_지팡이_카드_경매장구매_폰트Div = document.getElementById("최저가-운명의 지팡이 카드-자체수급-결정부터")
+                운명_지팡이_카드_경매장구매_폰트Div.style.color = "indianred";
+            }

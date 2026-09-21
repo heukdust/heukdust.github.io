@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>점부자 - 점성으로 부자되자 !</title>
+
+    <!-- Custom fonts for this template-->
+     <!-- Bootstrap CSS 링크 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/88a98b9d62.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    <style>
+        @font-face {
+            font-family: 'MabinogiClassicR';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/MabinogiClassicR.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }   
+       
+    </style>
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+         <!-- Sidebar -->
+         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fa-brands fa-pagelines" style="color: #ffffff;"></i>
+                    <!--  <i class="fas"></i> -->
+                    
+                </div>
+                <div class="sidebar-brand-text mx-3">Mugwort</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span style="text-align: center;">점부자 - 경매장 최저가</span></a>
+            </li>
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="profitChk.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span style="text-align: center;">점부자 - 이득/손해 확인</span></a>
+            </li>
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            <div style="text-align: center;"><img src="점부자_대문_감자님.png"></div>
+            
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Cards</h1>
+                    </div>
+
+                    <div class="row">
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                포비든 알케미스트</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">소울 리버레이트 실린더</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-2x text-gray-300"><img src="소울실린더.png"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Earnings (Annual) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                포비든 알케미스트</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">소울 리버레이트 가드 실린더</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-2x text-gray-300"><img src="소울가실.png"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tasks Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="progress progress-sm mr-2">
+                                                        <div class="progress-bar bg-info" role="progressbar"
+                                                            style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                                                            aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pending Requests Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-warning shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                                Pending Requests</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-6">
+
+                            <!-- Dropdown Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">실린더어</h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <!-- 테이블 구조 -->
+                                    <table class="table text-center">
+                                        <thead>
+                                            <tr>
+                                                <th>구분</th>
+                                                <th>필요 재료</th>
+                                                <th>경매장가</th>
+                                                <th>필요</th>
+                                                <th>소지</th>
+                                                <th>잔여</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>-</td>
+                                                <td>브리 레흐의 정수</td>
+                                                <td class="auction-price" data-item="브리 레흐의 정수"></td>
+                                                <td>10</td>
+                                                <td>0</td>
+                                                <td>10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>-</td>
+                                                <td>브리 레흐의 코어</td>
+                                                <td class="auction-price" data-item="브리 레흐의 코어"></td>
+                                                <td>10</td>
+                                                <td>0</td>
+                                                <td>10</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="4">단단한 금속</td>
+                                                <td>단단하게 결정화된 광물 조각</td>
+                                                <td></td>
+                                                <td>10</td>
+                                                <td>0</td>
+                                                <td>10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>마력이 깃든 융합제</td>
+                                                <td></td>
+                                                <td>10</td>
+                                                <td>0</td>
+                                                <td>10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>무른 금속 파편</td>
+                                                <td></td>
+                                                <td>10</td>
+                                                <td>0</td>
+                                                <td>10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>퓨어 젬스톤</td>
+                                                <td></td>
+                                                <td>10</td>
+                                                <td>0</td>
+                                                <td>10</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- Collapsable Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Accordion -->
+                                <a href="#collapseCardExample" class="d-block card-header py-3" data-toggle="collapse"
+                                    role="button" aria-expanded="true" aria-controls="collapseCardExample">
+                                    <h6 class="m-0 font-weight-bold text-primary">Collapsable Card Example</h6>
+                                </a>
+                                <!-- Card Content - Collapse -->
+                                <div class="collapse show" id="collapseCardExample">
+                                    <div class="card-body">
+                                        This is a collapsable card ㄹㄹㄹexample using Bootstrap's built in collapse
+                                        functionality. <strong>Click on the card header</strong> to see the card body
+                                        collapse and expand!
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <!-- Dropdown Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">경매장 재료 금액</h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    데이터 불러오기<br>
+                                    데이터 불러오기2<br>
+                                </div>
+                            </div>
+
+                            <!-- Collapsable Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Accordion -->
+                                <a href="#collapseCardExample" class="d-block card-header py-3" data-toggle="collapse"
+                                    role="button" aria-expanded="true" aria-controls="collapseCardExample">
+                                    <h6 class="m-0 font-weight-bold text-primary">Collapsable Card Example</h6>
+                                </a>
+                                <!-- Card Content - Collapse -->
+                                <div class="collapse show" id="collapseCardExample">
+                                    <div class="card-body">
+                                        This is a collapsable card ㄹㄹㄹexample using Bootstrap's built in collapse
+                                        functionality. <strong>Click on the card header</strong> to see the card body
+                                        collapse and expand!
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+        <div>
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span style="margin-bottom: 30px;">Copyright &copy; 쑥먹은범</span><br>
+                        <span>도와주신 분들에게 감사한 마음을 담아 &#x2764;감자&모켠&태벽&킬브리안&#x2764;</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Bootstrap JavaScript 링크 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            getApi();
+        }); 
+
+        // API 가져오기
+        function getApi(){
+            // 변수저장
+            const API_KEY = 'live_70a08300adacee96ad7a0fb4b0692b0e87e604c2f56fb97a026aa7327bbf4681efe8d04e6d233bd35cf2fabdeb93fb0d';
+            const itemNames = ["브리 레흐의 정수", "브리 레흐의 코어"];
+            let itemCategory = "";
+            let promises = [];
+        
+            // api불러오기
+            itemNames.forEach(itemName => {
+                // 카테고리 담아주기
+                if(itemName =='브리 레흐의 정수' || itemName == '브리 레흐의 코어'){
+                    itemCategory = '기타';
+        
+                }
+        
+                // 최종 URL
+                const urlString = `https://open.api.nexon.com/mabinogi/v1/auction/list?auction_item_category=${encodeURIComponent(itemCategory)}&item_name=${encodeURIComponent(itemName)}`;
+            
+                const promise = fetch(urlString, {
+                    headers: {
+                    "x-nxopen-api-key": API_KEY 
+                    }
+                })
+                .then(response => {
+                    console.log(response.status); // 상태 코드 확인
+                    return response.json();
+                })
+        
+                .then(data => {
+                    const auctionItems = data.auction_item;
+                    console.log(auctionItems+"디버기잉"); // 디버깅
+            
+                    // 가격 기준으로 오름차순 정렬하여 가장 저렴한 아이템 선택
+                    const cheapestItem = auctionItems.sort((a, b) => a.auction_price_per_unit - b.auction_price_per_unit)[0];
+                    console.log(cheapestItem+"cheapestItem디버깅"); // 디버깅
+
+                    // 경매장 최저가 금액 가져오기
+                    const auctionPrice = cheapestItem.auction_price_per_unit;
+                    
+                    // 변수저장
+                    if(cheapestItem.item_name == '브리 레흐의 정수'){
+                        auction정수 = cheapestItem.auction_price_per_unit;
+                        piece.innerHTML = `${formatGold(auction정수)}`;
+                    
+                    }else if(cheapestItem.item_name == '브리 레흐의 코어'){
+                        auction코어 = cheapestItem.auction_price_per_unit;
+                        piece.innerHTML = `${formatGold(auction코어)}`;
+
+                    }
+
+
+
+                
+                    
+                })  
+            .catch(error => {
+                console.error(`${itemName} 데이터 요청 중 오류 발생:`, error);
+            });
+
+            promises.push(promise);
+
+            });
+
+
+            // 모든 요청이 완료되면 chkProfit() 호출
+            Promise.all(promises).then(() => {
+                // 모든 데이터가 로드된 후 실행
+                chkProfit();  
+            });
+
+        } 
+
+  
+    </script>
+
+</body>
+
+</html>
